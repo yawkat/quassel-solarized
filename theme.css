@@ -124,16 +124,21 @@ ChatListItem {
     foreground: #93a1a1; /* base1 (like ChatLine#plain) */
 }
 ChatListItem[state="inactive"] { 
-    foreground: #a0a0a4; 
+    foreground: #93a1a1; /* base1 (like ChatLine#plain) */
 }
 ChatListItem[state="channel-event"] { 
-    foreground: #008000; 
+    /*
+     * This is a variant of the solarized green with very little saturation to 
+     * bring it closer to base1 (inactive) because the normal green was too 
+     * eye-catching. 
+     */
+    foreground: #91995C;
 }
 ChatListItem[state="unread-message"] { 
-    foreground: #ff7b00; 
+    foreground: #268bd2; /* blue */
 }
 ChatListItem[state="highlighted"] { 
-    foreground: #ff00bf; 
+    foreground: #cb4b16; /* orange */
 }
 BufferView { 
     background: #002b36; /* base03 */
@@ -147,7 +152,7 @@ NickListItem[type="user"] {
     foreground: #93a1a1; /* base1 (like ChatLine#plain) */
 }
 NickListItem[type="user", state="away"] { 
-    foreground: #a0a0a4; 
+    foreground: #586e75; /* base01 */
 }
 NickView { 
     background: #002b36; /* base03 */
@@ -201,19 +206,19 @@ QTableView {
 }
 
 Palette {
-    link: #539FA3; 
-    link-visited: #845B90;
+    link: #268bd2; /* blue */
+    link-visited: #268bd2; /* blue */
 
-    window: #2b2b2b; 
+    window: #002b36; /* base03 */
     window-text: #93a1a1; /* base1 (like ChatLine#plain) */
-    text: #00004b;
+    text: #93a1a1; /* base1 (like ChatLine#plain) */
 
-    light: #B7B4AC; 
+    light: #eee8d5; /* base2 */
     midlight: #93a1a1; /* base1 (like ChatLine#plain) */ 
-    button: #292929;
-    mid: #202553; 
-    dark: #000533; 
-    button-text: #B6B3AB; 
+    button: #073642; /* base02 */
+    mid: #586e75; /* base01 */
+    dark: #073642; /* base02 */
+    button-text: #93a1a1; /* base1 (like ChatLine#plain) */
 }
 
 StyledLabel#topicLabel { 
