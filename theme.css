@@ -70,53 +70,53 @@ ChatLine::sender#plain[sender="self"] {
     foreground: #eee8d5; /* base2 */
 }
 
-ChatLine::sender#plain[sender="00"] { 
-    foreground: #b58900; /* yellow */
+ChatLine::sender#plain[sender="0"] { 
+    foreground: #b58900;
 }
-ChatLine::sender#plain[sender="01"] { 
-    foreground: #cb4b16; /* orange */
+ChatLine::sender#plain[sender="1"] { 
+    foreground: #c0690a;
 }
-ChatLine::sender#plain[sender="02"] { 
-    foreground: #dc322f; /* red */
+ChatLine::sender#plain[sender="2"] { 
+    foreground: #cb4b16;
 }
-ChatLine::sender#plain[sender="03"] { 
-    foreground: #d33682; /* magenta */
+ChatLine::sender#plain[sender="3"] { 
+    foreground: #d33d22;
 }
-ChatLine::sender#plain[sender="04"] { 
-    foreground: #6c71c4; /* violet */
+ChatLine::sender#plain[sender="4"] { 
+    foreground: #dc322f;
 }
-ChatLine::sender#plain[sender="05"] { 
-    foreground: #268bd2; /* blue */
+ChatLine::sender#plain[sender="5"] { 
+    foreground: #32d7b1;
 }
-ChatLine::sender#plain[sender="06"] { 
-    foreground: #2aa198; /* cyan */
+ChatLine::sender#plain[sender="6"] { 
+    foreground: #d33682;
 }
-ChatLine::sender#plain[sender="07"] { 
-    foreground: #859900; /* green */
+ChatLine::sender#plain[sender="7"] { 
+    foreground: #aa52cb;
 }
-ChatLine::sender#plain[sender="08"] { 
-    foreground: #b58900; /* yellow */
+ChatLine::sender#plain[sender="8"] { 
+    foreground: #6c71c4;
 }
-ChatLine::sender#plain[sender="09"] { 
-    foreground: #cb4b16; /* orange */
+ChatLine::sender#plain[sender="9"] { 
+    foreground: #4a73cb;
 }
-ChatLine::sender#plain[sender="10"] { 
-    foreground: #dc322f; /* red */
+ChatLine::sender#plain[sender="a"] { 
+    foreground: #268bd2;
 }
-ChatLine::sender#plain[sender="11"] { 
-    foreground: #d33682; /* magenta */
+ChatLine::sender#plain[sender="b"] { 
+    foreground: #28a1b9;
 }
-ChatLine::sender#plain[sender="12"] { 
-    foreground: #6c71c4; /* violet */
+ChatLine::sender#plain[sender="c"] { 
+    foreground: #2aa198;
 }
-ChatLine::sender#plain[sender="13"] { 
-    foreground: #268bd2; /* blue */
+ChatLine::sender#plain[sender="d"] { 
+    foreground: #149d18;
 }
-ChatLine::sender#plain[sender="14"] { 
-    foreground: #2aa198; /* cyan */
+ChatLine::sender#plain[sender="e"] { 
+    foreground: #859900;
 }
-ChatLine::sender#plain[sender="15"] { 
-    foreground: #859900; /* green */
+ChatLine::sender#plain[sender="f"] { 
+    foreground: #a79d00;
 }
 
 /* BufferView Colors */
